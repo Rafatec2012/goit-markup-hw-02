@@ -1,1 +1,1 @@
-https://github.com/Rafatec2012/goit-markup-hw-01
+https://rafatec2012.github.io/goit-markup-hw-02/
