@@ -30,23 +30,22 @@ header {
   color: #ffffff;
 }
 .intro-bot {
-  font-style: normal;
   font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 42px;
-  gap: 10px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8px;
+letter-spacing: 0.06em;
+padding: 20px 20px;
+gap: 10px;
+color: #FFFFFF;
+background: #2196F3;
   cursor: pointer;
   
+
+}
+.intro-bot :focus{
+  background: #2196F3
 }
 
 .intro-bot:hover{
@@ -80,7 +79,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 ;
@@ -99,7 +98,7 @@ ul {
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -118,7 +117,7 @@ top: 2258px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 
@@ -130,7 +129,7 @@ color: #FFFFFF;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-align: right;
 }
@@ -140,7 +139,7 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px
+line-height: 1.7;
 
 }
 p{
@@ -158,7 +157,7 @@ p{
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #000000;
   
@@ -184,6 +183,7 @@ a {
   color: #2196f3;
 }
 .entrar {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -201,15 +201,29 @@ a {
 background-color: #4686bb;
 
 }
-
-
+.nav-web{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+  cursor: pointer;
+ 
+}
+.nav-web:hover{
+  background-color: #2196f3;
+  
+}
+.nav-web:focus{
+  background-color: #2196f3; 
+}
 .icon-blue {
   color: #2196f3;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
 font-style: normal;
-line-height: 31px;
+line-height: 1.1;
 letter-spacing: 0.03em;
 
 }
@@ -235,6 +249,9 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.1;
 letter-spacing: 0.03em;
+}
+.link{
+  color: #2196f3; 
 }
